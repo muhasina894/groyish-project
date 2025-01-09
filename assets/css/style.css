@@ -627,11 +627,11 @@ section.products div.product-bottom .product-box div.content .bottom-price .add-
 
 section.advertise {
    display: flex;
-   justify-content: space-between; 
+   column-gap: 100px;
 }
 
 section.advertise .advertise-left {
-    width: 565px;
+    width: 100%;
     height: 300px;
     background: linear-gradient(rgba(255, 245, 225, 0.85), rgba(255, 245, 225, 0.85)), /* Semi-transparent overlay */
     url(../images/bg-1.jpg);
@@ -702,7 +702,7 @@ section.advertise .advertise-left .ad-right img{
 }
 
 section.advertise .advertise-right {
-    width: 565px;
+    width: 100%;
     height: 300px;
     display: flex;
     justify-content: space-between;
@@ -897,7 +897,8 @@ section.best-sells .best-sells-bottom .bg .firstr span{
   }
   .secondr input {
     width: 100%;
-    padding: 10px 42px;
+    height: 40px;
+    padding: 1px 42px;
     border-radius: 5px;
     border: none;
     background-color: white;
@@ -906,7 +907,8 @@ section.best-sells .best-sells-bottom .bg .firstr span{
     color: #adadad;
 
 }
-  .secondr input ::placeholderer{
+
+.secondr input ::placeholderer{
 
   }
 
